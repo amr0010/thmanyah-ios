@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject var dependencyContainer: DependencyContainer
     
     var body: some View {
-        NavigationStack {
-            Text("Thmanyah")
-                .navigationTitle("Audio Content")
-        }
-    }
+           TabView {
+               NavigationView {
+                   HomeView()
+               }
+               .tabItem {
+                   Image(systemName: "house.fill")
+                   Text("Home")
+               }
+               
+               NavigationView {
+                   SearchView()
+               }
+               .tabItem {
+                   Image(systemName: "magnifyingglass")
+                   Text("Search")
+               }
+           }
+           .accentColor(DesignSystem.Colors.accent)
+       }
 }
 
 #Preview {
