@@ -8,7 +8,9 @@
 
 import Foundation
 
-enum NetworkError: Error, LocalizedError {
+enum NetworkError: Error, LocalizedError, Equatable {
+    
+    
     case invalidURL
     case noData
     case invalidResponse
@@ -37,6 +39,10 @@ enum NetworkError: Error, LocalizedError {
         case .unknown(let error):
             return "Unknown error: \(error.localizedDescription)"
         }
+    }
+    
+    static func == (lhs: NetworkError, rhs: NetworkError) -> Bool {
+        lhs.localizedDescription == rhs.localizedDescription
     }
 }
 
