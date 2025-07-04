@@ -7,10 +7,6 @@
 
 import Foundation
 
-protocol SearchContentUseCaseProtocol {
-    func execute(query: String) async throws -> [SearchSection]
-}
-
 final class SearchContentUseCase: SearchContentUseCaseProtocol {
     
     private let searchRepository: SearchRepositoryProtocol

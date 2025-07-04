@@ -7,12 +7,6 @@
 
 import Foundation
 
-// MARK: - Use Case Protocol
-protocol GetHomeSectionsUseCaseProtocol {
-    func execute(page: Int?) async throws -> (sections: [Section], pagination: Pagination?)
-}
-
-// MARK: - Get Home Sections Use Case
 final class GetHomeSectionsUseCase: GetHomeSectionsUseCaseProtocol {
     
     private let homeRepository: HomeRepositoryProtocol
