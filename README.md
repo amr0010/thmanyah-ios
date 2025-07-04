@@ -3,6 +3,13 @@
 
 An iOS application built with Swift that displays content from various sources including podcasts, articles, and other media types.
 
+## Screenshots
+
+<img src="https://github.com/user-attachments/assets/cbbcaf42-1e02-4364-a434-8bc15fe130b9" width="300" />
+<img src="https://github.com/user-attachments/assets/07db83f5-1446-470b-8cf6-eb2ffba6c6f8" width="300" />
+<img src="https://github.com/user-attachments/assets/cf1486f9-b15f-4088-8d91-e6b7dfe86f9d" width="300" />
+
+
 ## Features
 
 - **Home Feed**: Browse through different content types with pagination support
@@ -92,6 +99,12 @@ The app follows Clean Architecture principles with MVVM pattern for presentation
 # ثمانية iOS
 
 تطبيق iOS مبني بلغة Swift يعرض المحتوى من مصادر مختلفة بما في ذلك البودكاست والمقالات وأنواع الوسائط الأخرى.
+
+## صور
+
+<img src="https://github.com/user-attachments/assets/cbbcaf42-1e02-4364-a434-8bc15fe130b9" width="300" />
+<img src="https://github.com/user-attachments/assets/07db83f5-1446-470b-8cf6-eb2ffba6c6f8" width="300" />
+<img src="https://github.com/user-attachments/assets/cf1486f9-b15f-4088-8d91-e6b7dfe86f9d" width="300" />
 
 ## المميزات
 
